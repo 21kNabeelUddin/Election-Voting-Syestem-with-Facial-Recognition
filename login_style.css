@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Added semi-transparent background to the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="first_name"],
+input[type="last_name"],
+input[type="cnic"],
+input[type="address"],
+input[type="select"]{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.select-box {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    /* Optionally, you can apply additional styles to make the select box visually similar to input fields */
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Added transition effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
